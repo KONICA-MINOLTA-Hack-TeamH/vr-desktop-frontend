@@ -18,11 +18,11 @@ public class Mail
 
     public override string ToString()
     {
-        string text = "";
-        text += "Title: " + subject + "\n";
-        text += "From:  " + from + "\n";
-        text += "To:    " + to + "\n";
-        text += "Body:\n" + text + "\n";
-        return text;
+        string str = "";
+        str += "Title: " + subject + "\n";
+        str += "From:  " + from + "\n";
+        str += "To:    " + to + "\n";
+        str += "\n" + text + "\n";
+        return str;
     }
 }
